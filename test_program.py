@@ -13,7 +13,7 @@ def test_program():
     try:
         import program
     except Exception as e:
-        assert False, (
+        assert False (
             'Не удалось запустить `program.py`. '
             'Исправьте в нем ошибки:\n'
             f'{e}'
